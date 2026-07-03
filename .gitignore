@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Datasets (Massive raw files and filtered subsets)
+raw_subset.csv
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+
+# Jupyter Notebook Checkpoints & Temp Files
+.ipynb_checkpoints/
+checkpoint/
+.ipython/
+notebook_dump.txt
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.conda/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs
+*.log
