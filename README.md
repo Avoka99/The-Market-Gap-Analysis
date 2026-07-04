@@ -1,12 +1,19 @@
-## Executive Summary
+## A. Executive Summary
 
 This project analyzed a cleaned subset of the Open Food Facts dataset to find a real gap in the snack aisle. After filtering and wrangling the data into high-level categories, the clearest opportunity appeared in Sweet Snacks, especially products that can deliver higher protein without pushing sugar too high. The target high-protein, low-sugar quadrant is still relatively small, and a large share of those products are ultra-processed, which points to room for a cleaner-label alternative. The strongest ingredient signals in that quadrant were seeds, soy, and peanuts, making them the most practical formulation direction for a new product.
 
-## Technical Explanation
+## B. Project Links
+•	Link to Notebook: https://github.com/Avoka99/The-Market-Gap-Analysis/blob/main/MarketGapAnalysis.ipynb
+•	Link to Dashboard: https://the-market-gap-analysis-dashboard.streamlit.app/.
+•	Link to Presentation: https://docs.google.com/presentation/d/15ats-kO1orKKlO3OeXBGC5STOhqjAec5Epmj5dwzeXQ/edit?usp=sharing (YouTube: https://youtu.be/LDPHgYFM0HU) 
+
+## C. Technical Explanation
 
 Data cleaning focused on keeping a single working dataset with only the columns needed for the project, then removing rows with missing product names, categories, sugars, or proteins. I also converted the nutritional fields to numeric values and filtered out clearly invalid measurements such as negative values and impossible energy or macronutrient values. The result is a cleaner dataset that still keeps enough rows for analysis while staying aligned with the project brief.
 
-My Candidate's Choice was the NOVA and Nutri-Score analysis on the high-protein, low-sugar cluster. I added it because good macro numbers alone do not guarantee a good product, and this extra view shows whether the opportunity is dominated by ultra-processed products or whether there is room for cleaner-label alternatives.
+
+
+My Choice was the NOVA and Nutri-Score analysis on the high-protein, low-sugar cluster. I added it because good macro numbers alone do not guarantee a good product, and this extra view shows whether the opportunity is dominated by ultra-processed products or whether there is room for cleaner-label alternatives.
 
 
 Project Brief: The "Sugar Trap" Market Gap Analysis
