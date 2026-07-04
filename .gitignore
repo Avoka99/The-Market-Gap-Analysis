@@ -5,7 +5,6 @@ env/
 
 # Datasets (Massive raw files and filtered subsets)
 raw_subset.csv
-*.csv
 *.csv.gz
 *.tsv
 *.tsv.gz
