@@ -4,7 +4,9 @@ This project analyzed a cleaned subset of the Open Food Facts dataset to find a 
 
 ## B. Project Links
 •	Link to Notebook: https://github.com/Avoka99/The-Market-Gap-Analysis/blob/main/MarketGapAnalysis.ipynb
+
 •	Link to Dashboard: https://the-market-gap-analysis-dashboard.streamlit.app/.
+
 •	Link to Presentation: https://docs.google.com/presentation/d/15ats-kO1orKKlO3OeXBGC5STOhqjAec5Epmj5dwzeXQ/edit?usp=sharing (YouTube: https://youtu.be/LDPHgYFM0HU) 
 
 ## C. Technical Explanation
