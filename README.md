@@ -12,11 +12,9 @@ This project analyzed a cleaned subset of the Open Food Facts dataset to find a 
 ## C. Technical Explanation
 
 Data cleaning focused on keeping a single working dataset with only the columns needed for the project, then removing rows with missing product names, categories, sugars, or proteins. I also converted the nutritional fields to numeric values and filtered out clearly invalid measurements such as negative values and impossible energy or macronutrient values. The result is a cleaner dataset that still keeps enough rows for analysis while staying aligned with the project brief.
-
 My Choice was the NOVA and Nutri-Score analysis on the high-protein, low-sugar cluster. I added it because good macro numbers alone do not guarantee a good product, and this extra view shows whether the opportunity is dominated by ultra-processed products or whether there is room for cleaner-label alternatives.
 
-
-
+________________________________________
 
 Project Brief: The "Sugar Trap" Market Gap Analysis
 Client: Helix CPG Partners (Strategic Food & Beverage Consultancy)
